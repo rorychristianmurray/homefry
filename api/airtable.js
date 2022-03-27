@@ -1,5 +1,4 @@
 const Airtable = require("airtable");
-const xTokens = require("../utils").xTokens;
 
 const base = new Airtable({
   apiKey: process.env.REACT_APP_AIRTABLE_API_KEY,
